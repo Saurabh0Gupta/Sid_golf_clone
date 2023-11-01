@@ -87,9 +87,22 @@ gsap.from(".box",{
         scroller:"body",
         stagger:0.9,
         trigger:"#page2-last",
-        markers:true,
+        // markers:true,
         start:"top 70%",
         end:"top 40%",
+        scrub:1,
+        // pin:true
+    }
+})
+gsap.to("#page5 h1",{
+    y:-50,
+    scrollTrigger:{
+        scroller:"body",
+        stagger:0.9,
+        trigger:"#page5",
+        markers:true,
+        start:"top 85%",
+        end:"top 70%",
         scrub:1,
         // pin:true
     }
