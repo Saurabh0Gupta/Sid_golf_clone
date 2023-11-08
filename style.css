@@ -567,22 +567,68 @@ footer{
     width: 100%;
     min-height: 50vh;
     background:linear-gradient(to left bottom,#18A138,#95C11E);
-}
-#foot-1{
     position: relative;
+}
+footer img{
+    width: 400px;
+ }
+#foot-1{
+    padding-top: 80px;
     width: 100%;
-    height: 45vh;
+    height: 85%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    /* background-color: #fff; */
-}
-#foot-1 img{
-    height: 100%;
+    /* background-color: red; */
     position: absolute;
-    left: 0;
-    top: 0;
+    top: 0%;
 }
-#foot-1 #f1 img{
-    height: 100px;
+#f1,#f2,#f3,#f4{
+    width: 25%;
+    height: 100%;
+    /* background-color: salmon; */
+}
+#f1 img{
+    margin-left: 130px;
+    width: 130px;
+}
+#foot-1 h4{
+    font-family: mon8;
+    font-weight: 900;
+    color: #0c0c0c;
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+#foot-1 h4:hover{
+    color: #fff;
+}
+#f4 h6{
+    font-family: mon4;
+    font-weight: 800;
+    font-size: 17px;
+    color: #000;
+    line-height: 22px;
+}
+#f4 h6 span{
+    font-family: mon8;
+    font-weight: 800;
+    font-size: 20px;
+    color: #000;
+}
+#foot-2{
+    width: 100%;
+    /* background-color: rgb(173, 209, 158); */
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 120px;
+}
+#foot-2 h4{
+    font-family: mon6;
+    font-weight: 600;
+    color: #000;
+    font-size: 13px;
+
 }

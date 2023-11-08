@@ -100,7 +100,7 @@ gsap.to("#page5 h1",{
         scroller:"body",
         stagger:0.9,
         trigger:"#page5",
-        markers:true,
+        // markers:true,
         start:"top 85%",
         end:"top 70%",
         scrub:1,
